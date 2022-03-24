@@ -1,0 +1,83 @@
+﻿@model IEnumerable<CRUDApp.Models.LoansModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class"button" asp-action="Create">Apply</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanInterestRate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanPrincipal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanBalance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanPayementPeriod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanInstallmentStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanInstallmentEndDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanInterestRate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanPrincipal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanBalance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanPayementPeriod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanInstallmentStartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanInstallmentEndDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.LoanId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.LoanId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.LoanId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
