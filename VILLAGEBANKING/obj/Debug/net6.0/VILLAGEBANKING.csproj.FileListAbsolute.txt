@@ -73,10 +73,6 @@ C:\Users\mulenjos\source\repos\Village-Banking-System\VILLAGEBANKING\obj\Debug\n
 C:\Users\mulenjos\source\repos\Village-Banking-System\VILLAGEBANKING\obj\Debug\net6.0\VILLAGEBANKING.AssemblyInfoInputs.cache
 C:\Users\mulenjos\source\repos\Village-Banking-System\VILLAGEBANKING\obj\Debug\net6.0\VILLAGEBANKING.AssemblyInfo.cs
 C:\Users\mulenjos\source\repos\Village-Banking-System\VILLAGEBANKING\obj\Debug\net6.0\VILLAGEBANKING.csproj.CoreCompileInputs.cache
-C:\Users\mulenjos\source\repos\Village-Banking-System\VILLAGEBANKING\obj\Debug\net6.0\VILLAGEBANKING.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mulenjos\source\repos\Village-Banking-System\VILLAGEBANKING\obj\Debug\net6.0\VILLAGEBANKING.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mulenjos\source\repos\Village-Banking-System\VILLAGEBANKING\obj\Debug\net6.0\VILLAGEBANKING.RazorAssemblyInfo.cache
 C:\Users\mulenjos\source\repos\Village-Banking-System\VILLAGEBANKING\obj\Debug\net6.0\VILLAGEBANKING.RazorAssemblyInfo.cs
-C:\Users\mulenjos\source\repos\Village-Banking-System\VILLAGEBANKING\obj\Debug\net6.0\VILLAGEBANKING.dll
-C:\Users\mulenjos\source\repos\Village-Banking-System\VILLAGEBANKING\obj\Debug\net6.0\refint\VILLAGEBANKING.dll
-C:\Users\mulenjos\source\repos\Village-Banking-System\VILLAGEBANKING\obj\Debug\net6.0\VILLAGEBANKING.pdb

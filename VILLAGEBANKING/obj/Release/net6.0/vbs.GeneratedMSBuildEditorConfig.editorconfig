@@ -1,0 +1,136 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = vbs
+build_property.RootNamespace = vbs
+build_property.ProjectDir = C:\Users\mulenjos\source\repos\Village-Banking-System\vbs\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mulenjos\source\repos\Village-Banking-System\vbs
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Accounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Accounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/CurrencyExchange/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lFeGNoYW5nZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/CurrencyExchange/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lFeGNoYW5nZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/CurrencyExchange/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lFeGNoYW5nZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/CurrencyExchange/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lFeGNoYW5nZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/CurrencyExchange/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lFeGNoYW5nZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Home/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Loans/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Loans/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Loans/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Loans/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Loans/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Transaction/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Transaction/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Transaction/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Transaction/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Transaction/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mulenjos/source/repos/Village-Banking-System/vbs/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q9rrzae3yq
