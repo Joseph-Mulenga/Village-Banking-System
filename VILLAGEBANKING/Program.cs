@@ -1,4 +1,4 @@
-using VILLAGEBANKING.;
+using CRUDApp.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using VILLAGEBANKING.Data;
