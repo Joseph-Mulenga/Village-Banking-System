@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Uq/enDMEQ77XKt7zj2nPiV3aNYVJ9lJM6UCxr2bGPC2Z5CUibwiIM7qdjg/4fhXC9sTE/akFuO31Lszyf7OTuw==",
+  "dgSpecHash": "1uBJo7dnNn5p7WyW+IeqiAjyKmLSoA8hcu/8Tj9G8x76xSVpj3EOTTZ5K5+4603azEqpzVPGu8JtIkzeV6tPVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\VILLAGEBANKING\\VILLAGEBANKING.csproj",
   "expectedPackageFiles": [
@@ -38,9 +38,9 @@
     "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.diasymreader\\1.3.0\\microsoft.diasymreader.1.3.0.nupkg.sha512",
     "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.dotnet.scaffolding.shared\\6.0.2\\microsoft.dotnet.scaffolding.shared.6.0.2.nupkg.sha512",
-    "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
-    "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.3\\microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",
-    "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.3\\microsoft.entityframeworkcore.analyzers.6.0.3.nupkg.sha512",
+    "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
+    "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",
+    "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.2\\microsoft.entityframeworkcore.analyzers.6.0.2.nupkg.sha512",
     "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.2\\microsoft.entityframeworkcore.design.6.0.2.nupkg.sha512",
     "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.2\\microsoft.entityframeworkcore.relational.6.0.2.nupkg.sha512",
     "C:\\Users\\mulenjos\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.2\\microsoft.entityframeworkcore.sqlserver.6.0.2.nupkg.sha512",

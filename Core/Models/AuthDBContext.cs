@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace CRUDApp.Models
+namespace Core.Models
 {
     public class AuthDBContext : IdentityDbContext<IdentityUser>
     {

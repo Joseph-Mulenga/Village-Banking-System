@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Core.Models
 {
-    internal class GroupMembersDBContext
+    internal class GroupMembersDBContext : DbContext
     {
-    }
+            public GroupMembersDBContext(DbContextOptions<GroupMembersDBContext> options) : base(options)
+            {
+
+            }
+            public DbSet<GroupMembersModel> Members { get; set; }
+
+        }
 }

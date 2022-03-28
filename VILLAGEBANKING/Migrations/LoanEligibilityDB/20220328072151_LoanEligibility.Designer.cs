@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace VILLAGEBANKING.Migrations
+namespace VILLAGEBANKING.Migrations.LoanEligibilityDB
 {
-    [DbContext(typeof(CurrencyDBContext))]
-    [Migration("20220324100456_Currency")]
-    partial class Currency
+    [DbContext(typeof(LoanEligibilityDBContext))]
+    [Migration("20220328072151_LoanEligibility")]
+    partial class LoanEligibility
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,24 +23,23 @@ namespace VILLAGEBANKING.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Core.Models.CurrencyExchangeModel", b =>
+            modelBuilder.Entity("Core.Models.LoanEligibilityModel", b =>
                 {
-                    b.Property<int>("CurrencyId")
+                    b.Property<int>("LoanEligibleAmountId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CurrencyId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LoanEligibleAmountId"), 1L, 1);
 
-                    b.Property<string>("CurrencyName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(100)");
+                    b.Property<int>("AmountContribution")
+                        .HasColumnType("int");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("EligibleLoanAmount")
+                        .HasColumnType("int");
 
-                    b.HasKey("CurrencyId");
+                    b.HasKey("LoanEligibleAmountId");
 
-                    b.ToTable("Currency");
+                    b.ToTable("Group");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Core.Models
 {
@@ -18,7 +13,9 @@ namespace Core.Models
 
         public double MinimumContributionAmount { get; set; }
 
+        [NotMapped]
         public DateOnly ContributionWindowDateFrom { get; set; }
+        [NotMapped]
         public DateOnly ContributionWindowDateTo { get; set; }
 
         public int FrequencyOfContributions { get; set; }
@@ -28,9 +25,11 @@ namespace Core.Models
         public double PenaltyFee { get; set; }
         
         public double ProvisionalInterest { get; set; }
-       
+
+        [NotMapped]
         public DateOnly GroupDateFrom { get; set; }
 
+        [NotMapped]
         public DateOnly GroupDateTo { get; set; }
 
         public int LoanEligibleAmountId { get; set; }

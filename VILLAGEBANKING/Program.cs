@@ -1,7 +1,7 @@
-using CRUDApp.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using VILLAGEBANKING.Data;
+using Core.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,8 +30,23 @@ builder.Services.AddDbContext<CurrencyDBContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"))
 
 );
-
 builder.Services.AddDbContext<LoansDBContext>(options =>
+
+options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"))
+
+);
+
+builder.Services.AddDbContext<GroupDBContext>(options =>
+
+options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"))
+
+);
+builder.Services.AddDbContext<GroupMembersDBContext>(options =>
+
+options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"))
+
+);
+builder.Services.AddDbContext<LoanEligibilityDBContext>(options =>
 
 options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"))
 

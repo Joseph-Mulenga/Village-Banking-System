@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace CRUDApp.Models
+namespace Core.Models
 {
     public class CurrencyDBContext : DbContext
     {

@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using CRUDApp.Models;
+using Core.Models;
 using Microsoft.AspNetCore.Authorization;
 
-namespace CRUDApp.Controllers
+namespace VILLAGEBANKING.Controllers
 {
     [Authorize]
     public class LoansController : Controller
