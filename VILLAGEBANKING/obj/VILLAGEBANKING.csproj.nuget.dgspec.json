@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\VILLAGEBANKING\\VILLAGEBANKING.csproj": {}
+    "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\VILLAGEBANKING\\VILLAGEBANKING.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\Core\\Core.csproj": {
+    "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\mulenjos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\Core\\obj\\",
+        "projectPath": "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\musondchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mulenjos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\musondchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,17 +85,22 @@
         }
       }
     },
-    "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\VILLAGEBANKING\\VILLAGEBANKING.csproj": {
+    "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\VILLAGEBANKING\\VILLAGEBANKING.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\VILLAGEBANKING\\VILLAGEBANKING.csproj",
+        "projectUniqueName": "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\VILLAGEBANKING\\VILLAGEBANKING.csproj",
         "projectName": "VILLAGEBANKING",
-        "projectPath": "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\VILLAGEBANKING\\VILLAGEBANKING.csproj",
-        "packagesPath": "C:\\Users\\mulenjos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\VILLAGEBANKING\\obj\\",
+        "projectPath": "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\VILLAGEBANKING\\VILLAGEBANKING.csproj",
+        "packagesPath": "C:\\Users\\musondchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\VILLAGEBANKING\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mulenjos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\musondchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,8 +114,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\Core\\Core.csproj"
+              "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\Core\\Core.csproj"
               }
             }
           }

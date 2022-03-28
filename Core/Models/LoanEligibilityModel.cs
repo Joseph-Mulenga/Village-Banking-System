@@ -2,7 +2,7 @@
 
 namespace Core.Models
 {
-    internal class LoanEligibilityModel
+    public class LoanEligibilityModel
     {
         [Key]
         public int LoanEligibleAmountId { get; set; }

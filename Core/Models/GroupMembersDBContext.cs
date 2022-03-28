@@ -2,7 +2,7 @@
 
 namespace Core.Models
 {
-    internal class GroupMembersDBContext : DbContext
+    public class GroupMembersDBContext : DbContext
     {
             public GroupMembersDBContext(DbContextOptions<GroupMembersDBContext> options) : base(options)
             {

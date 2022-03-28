@@ -830,19 +830,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mulenjos\\.nuget\\packages\\": {}
+    "C:\\Users\\musondchi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\mulenjos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mulenjos\\source\\repos\\Village-Banking-System\\Core\\obj\\",
+      "projectPath": "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\musondchi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\musondchi\\source\\repos\\Village-Banking-System\\Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\mulenjos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\musondchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

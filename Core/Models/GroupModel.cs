@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Core.Models
 {
-    internal class GroupModel
+    public class GroupModel
     {
         [Key]
         public int GroupId { get; set; }

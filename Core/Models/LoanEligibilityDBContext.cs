@@ -2,7 +2,7 @@
 
 namespace Core.Models
 {
-    internal class LoanEligibilityDBContext : DbContext
+    public class LoanEligibilityDBContext : DbContext
     {
 
         public LoanEligibilityDBContext(DbContextOptions<LoanEligibilityDBContext> options) : base(options)

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Core.Models
 {
-    internal class GroupMembersModel
+    public class GroupMembersModel
     {
         [Key]
         public int Id { get; set; }
