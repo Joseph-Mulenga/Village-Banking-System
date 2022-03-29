@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Core.Models.LoansModel>
+﻿@model IEnumerable<VILLAGEBANKING.Models.LoansModel>
 
 @{
     ViewData["Title"] = "Index";
@@ -19,7 +19,7 @@
                 @Html.DisplayNameFor(model => model.AccountType)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.AccountId)
+                @* @Html.DisplayNameFor(model => model.AccountId) *@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.LoanInterestRate)
@@ -52,7 +52,7 @@
                 @Html.DisplayFor(modelItem => item.AccountType)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.AccountId)
+                @* @Html.DisplayFor(modelItem => item.AccountId) *@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.LoanInterestRate)

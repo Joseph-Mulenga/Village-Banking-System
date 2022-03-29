@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Core.Models
+namespace VILLAGEBANKING.Models
 {
     public class LoansModel
     {
@@ -35,9 +35,9 @@ namespace Core.Models
         [Column(TypeName = "nvarchar(100)")]
         public string LoanInstallmentEndDate { get; set; }
 
-        public int AccountId { get; set; }
-        [ForeignKey("AccountId")]
-        public AccountsModel Account { get; set; }
+        //public int AccountId { get; set; }
+        //[ForeignKey("AccountId")]
+        //public AccountsModel Account { get; set; }
 
 
     }

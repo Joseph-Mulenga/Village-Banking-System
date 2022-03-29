@@ -1,7 +1,7 @@
 ﻿#nullable disable
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Core.Models;
+using VILLAGEBANKING.Models;
 using Microsoft.AspNetCore.Authorization;
 
 namespace VILLAGEBANKING.Controllers

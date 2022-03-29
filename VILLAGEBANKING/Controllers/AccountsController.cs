@@ -1,12 +1,15 @@
 ﻿#nullable disable
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Core.Models;
-using Microsoft.AspNetCore.Authorization;
+using VILLAGEBANKING.Models;
 
 namespace VILLAGEBANKING.Controllers
 {
-    [Authorize]
     public class AccountsController : Controller
     {
         private readonly AccountsDBContext _context;
@@ -51,7 +54,7 @@ namespace VILLAGEBANKING.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("AccountId,AccountName,AccountNumber,AccountType,BankBranchName")] AccountsModel accountsModel)
+        public async Task<IActionResult> Create([Bind("AccountId,FirstName,LastName,Address,Phone,Email")] AccountsModel accountsModel)
         {
             if (ModelState.IsValid)
             {
@@ -83,7 +86,7 @@ namespace VILLAGEBANKING.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("AccountId,AccountName,AccountNumber,AccountType,BankBranchName")] AccountsModel accountsModel)
+        public async Task<IActionResult> Edit(int id, [Bind("AccountId,FirstName,LastName,Address,Phone,Email")] AccountsModel accountsModel)
         {
             if (id != accountsModel.AccountId)
             {

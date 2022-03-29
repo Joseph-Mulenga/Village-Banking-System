@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Core.Models
+namespace VILLAGEBANKING.Models
 {
     public class AuthDBContext : IdentityDbContext<IdentityUser>
     {

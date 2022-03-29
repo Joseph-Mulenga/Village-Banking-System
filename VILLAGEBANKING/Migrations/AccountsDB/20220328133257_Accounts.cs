@@ -14,10 +14,11 @@ namespace VILLAGEBANKING.Migrations.AccountsDB
                 {
                     AccountId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    AccountName = table.Column<string>(type: "nvarchar(20)", nullable: false),
-                    AccountNumber = table.Column<string>(type: "nvarchar(50)", nullable: false),
-                    AccountType = table.Column<string>(type: "nvarchar(100)", nullable: false),
-                    BankBranchName = table.Column<string>(type: "nvarchar(100)", nullable: false)
+                    FirstName = table.Column<string>(type: "nvarchar(20)", nullable: false),
+                    LastName = table.Column<string>(type: "nvarchar(20)", nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(255)", nullable: false),
+                    Phone = table.Column<string>(type: "nvarchar(20)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(20)", nullable: false)
                 },
                 constraints: table =>
                 {

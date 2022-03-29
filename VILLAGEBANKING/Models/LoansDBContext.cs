@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Core.Models
-{
+namespace VILLAGEBANKING.Models;
     public class LoansDBContext : DbContext
     {
         public LoansDBContext(DbContextOptions<LoansDBContext> options) : base(options)
@@ -11,4 +10,4 @@ namespace Core.Models
         public DbSet<LoansModel>  Loans { get; set; }
 
     }
-}
+

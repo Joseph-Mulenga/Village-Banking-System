@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
 
-namespace Core.Models
+namespace VILLAGEBANKING.Models
 {
     public class GroupMembersModel
     {

@@ -1,4 +1,4 @@
-namespace Core.Models
+namespace VILLAGEBANKING.Models
 {
     public class ErrorViewModel
     {

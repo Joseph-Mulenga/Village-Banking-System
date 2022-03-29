@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using VILLAGEBANKING.Data;
-using Core.Models;
+using VILLAGEBANKING.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
