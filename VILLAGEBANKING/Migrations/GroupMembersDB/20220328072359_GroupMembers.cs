@@ -40,11 +40,18 @@ namespace VILLAGEBANKING.Migrations.GroupMembersDB
                     LoanEligibleAmountId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     AmountContribution = table.Column<int>(type: "int", nullable: false),
-                    EligibleLoanAmount = table.Column<int>(type: "int", nullable: false)
+                    EligibleLoanAmount = table.Column<int>(type: "int", nullable: false),
+                     GroupId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_LoanEligibilityModel", x => x.LoanEligibleAmountId);
+                    table.ForeignKey(
+                        name: "FK_GroupModel_LoanEligibilityModel_GroupId",
+                        column: x => x.GroupId,
+                        principalTable: "Groups",
+                        principalColumn: "GroupId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(

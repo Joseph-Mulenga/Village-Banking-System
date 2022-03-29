@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VILLAGEBANKING.Models;
 
@@ -10,9 +11,10 @@ using VILLAGEBANKING.Models;
 namespace VILLAGEBANKING.Migrations.LoanEligibilityDB
 {
     [DbContext(typeof(LoanEligibilityDBContext))]
-    partial class LoanEligibilityDBContextModelSnapshot : ModelSnapshot
+    [Migration("20220329083758_LoanEligibility")]
+    partial class LoanEligibility
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

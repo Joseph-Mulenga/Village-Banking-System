@@ -38,7 +38,7 @@ namespace VILLAGEBANKING.Migrations.LoansDB
                     LoanPayementPeriod = table.Column<string>(type: "nvarchar(100)", nullable: false),
                     LoanInstallmentStartDate = table.Column<string>(type: "nvarchar(100)", nullable: false),
                     LoanInstallmentEndDate = table.Column<string>(type: "nvarchar(100)", nullable: false),
-                    AccountId = table.Column<string>(type: "nvarchar(100)", nullable: false)
+                    AccountId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

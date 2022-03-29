@@ -35,9 +35,9 @@ namespace VILLAGEBANKING.Models
         [Column(TypeName = "nvarchar(100)")]
         public string LoanInstallmentEndDate { get; set; }
 
-        //public int AccountId { get; set; }
-        //[ForeignKey("AccountId")]
-        //public AccountsModel Account { get; set; }
+        public int AccountId { get; set; }
+        [ForeignKey("AccountId")]
+        public AccountsModel Account { get; set; }
 
 
     }
